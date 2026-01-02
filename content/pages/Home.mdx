@@ -1,12 +1,12 @@
 ---
 hero_links:
-  - link: '#'
+  - link: "#"
     label: Search for People
     background: secondary
-  - link: '#'
+  - link: "#"
     label: Explore the Village
     background: secondary
-  - link: '#'
+  - link: "#"
     label: Read Essays
     background: secondary
 full_width_links: true
@@ -16,15 +16,22 @@ transparent: true
 sections:
   - hero: true
     title: Revealing the Lives and Labor of the Enslaved at Jefferson’s University
-    subtitle: ''
-    content: ''
+    subtitle: ""
+    content: ""
     height: medium
     background_image: >-
-      https://core-data-tina-cms.s3.us-east-1.amazonaws.com/juel-ancestry-content/ancestry_hero1a.png
-    background_image_alt: ''
+      https://core-data-tina-cms.s3.us-east-1.amazonaws.com/juel-ancestry-content/ancestry_hero_full_green.png
+    background_image_alt: ""
     clip: false
-    darken: true
+    darken: false
     _template: banner
+  - background: secondary
+    overlap: true
+    links:
+      - label: Find the Enslaved
+      - label: Read the Documents
+      - label: Discover the Places
+    _template: link_banner
   - size: medium
     _template: spacer
   - gap: large
@@ -60,35 +67,35 @@ sections:
     _template: multi_column
   - size: medium
     _template: spacer
-  - columns:
+  - title: What the documents are saying
+    url: "#"
+    button_text: Search Documents
+    text_alignment: center
+    columns:
+      - align: items-center text-center
+        content:
+          - count: 0
+            description: Selling and Purchasing of the Enslaved
+            _template: counter
+      - align: items-center text-center
+        content:
+          - count: 0
+            description: Various Correspondence of the Enslaved
+            _template: counter
+      - align: items-center text-center
+        content:
+          - count: 0
+            description: Freedom Status Transactions
+            _template: counter
+      - align: items-center text-center
+        content:
+          - count: 0
+            description: " Life Events of the Enslaved"
+            _template: counter
       - content:
-          - image: >-
-              https://core-data-tina-cms.s3.us-east-1.amazonaws.com/juel-staging-content/image
-              6.png
-            link: '#'
-            overlay: Students
-            _template: image_link
-      - content:
-          - image: >-
-              https://core-data-tina-cms.s3.us-east-1.amazonaws.com/juel-staging-content/image
-              7.png
-            link: '#'
-            overlay: Faculty & Staff
-            _template: image_link
-      - content:
-          - image: >-
-              https://core-data-tina-cms.s3.us-east-1.amazonaws.com/juel-staging-content/Screenshot
-              2025-10-08 at 11.47.40 PM 1.png
-            link: '#'
-            overlay: Workers
-            _template: image_link
-      - content:
-          - image: >-
-              https://core-data-tina-cms.s3.us-east-1.amazonaws.com/juel-staging-content/Rectangle
-              4961.png
-            link: '#'
-            overlay: Community Members
-            _template: image_link
+          - count: 0
+            description: Selling and Purchasing of the Enslaved
+            _template: counter
     _template: multi_column
   - size: medium
     _template: spacer
@@ -110,56 +117,62 @@ sections:
     _template: banner
   - size: medium
     _template: spacer
-  - gap: small
+  - title: Eu diam eget amet quam imperdiet
+    text_alignment: center
+    gap: large
     columns:
-      - content:
-          - text: "#### Essays\n\n## Stories of Daily Life at the University of Virginia Before 1870\n\nExplore UVA’s rich history through stories detailing selected events and individuals gleaned from the archival materials of JUEL. Browse stories of notable, unusual, and historic incidents in the formation and early years of Jefferson’s University. Written by generations of UVA student researchers, they provide many different entryways into JUEL’s vast digital archive. Thus, they represent both the richness of this digital project and the significant student-faculty collaboration that has been at the heart of the JUEL project for more than a decade.\_To learn more about our team, please visit the\_[About Page](/about).\n\n<button content=\"View All\" href=\"#\" color=\"secondary\" text=\"content_light\" />\n"
-            _template: richtext
-      - content:
-          - text: >
-              #### Latest
+      - align: items-center text-center
+        background: layout_alternate
+        url: "#"
+        content:
+          - image: >-
+              https://core-data-tina-cms.s3.us-east-1.amazonaws.com/juel-ancestry-content/Rectangle%204976.png
+            _template: image
+          - text: |
+              ###### *Notable Incidents*
 
+              Mr. Forbes Kicks a Slave (1834)
 
               <spacer size="small" />
+            size: text-lg
+            _template: richtext
+      - align: items-center text-center
+        background: layout_alternate
+        url: "#"
+        content:
+          - image: >-
+              https://core-data-tina-cms.s3.us-east-1.amazonaws.com/juel-ancestry-content/Rectangle%204976_2.png
+            _template: image
+          - text: |
+              ###### *Daily Life*
 
+              Prosecution vs. Progress: Slave Courts in the 19th century
 
-              ###### "The Destinies of the South Must Be Entrusted to Our
-              Keeping": 1850s Secessionist and Pro-Slavery Thought at the
-              University of Virginia
+              <spacer size="small" />
+            size: text-lg
+            _template: richtext
+      - align: items-center text-center
+        background: layout_alternate
+        url: "#"
+        content:
+          - image: >-
+              https://core-data-tina-cms.s3.us-east-1.amazonaws.com/juel-ancestry-content/Rectangle%204976_3.png
+            _template: image
+          - text: |
+              ###### *Daily Life*
 
+              The Enslaved Workers of Pavilion X
 
-              <spacer size="small" color="secondary" />
-
-
-              ###### Offences, Punishment, and Early Student Self-Governance at
-              the University (1824)
-
-
-              <spacer size="small" color="secondary" />
-
-
-              ###### Gossip So Good, Maria C. Broadus Had To Share It Twice
-
-
-              <spacer size="small" color="secondary" />
-
-
-              ###### “An Urgent Want of Additional Lecture Rooms”: University of
-              Virginia Enrollment 1846-1861
-
-
-              <spacer size="small" color="secondary" />
-
-
-              ###### Mr. Moon Throws a Knife at a Servant (1839)
+              <spacer size="small" />
+            size: text-lg
             _template: richtext
     _template: multi_column
   - size: medium
     _template: spacer
   - title: Imperdiet nec vulputate porttitor facilisi
-    url: '#'
+    url: "#"
     button_text: View Images
-    content: ''
+    content: ""
     text_alignment: center
     color: white
     background_image: >-
@@ -207,4 +220,3 @@ sections:
   - size: medium
     _template: spacer
 ---
-
