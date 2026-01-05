@@ -17,47 +17,48 @@
     "allow_login": false,
     "custom_content": {
       "background": "primary",
-      "text": "content_light",
+      "text": "",
       "columns": [
         {
-          "width": "col-span-4",
-          "content": [
-            {
-              "image": "https://core-data-tina-cms.s3.us-east-1.amazonaws.com/juel-staging-content/JU_footer.svg",
-              "_template": "image"
-            },
-            {
-              "image": "https://core-data-tina-cms.s3.us-east-1.amazonaws.com/juel-staging-content/IATH_footer.png",
-              "_template": "image"
-            }
-          ]
-        },
-        {
-          "width": "col-span-4",
+          "width": "col-span-12",
           "align": "items-center text-center",
           "content": [
             {
-              "text": "**People**\n\n**The Academical Village**\n\n**Essays**\n\n**Documents**\n\n**Images**\n\n**About**\n",
+              "text": "#### The Enslavement and Ancestry at Jefferson’s University\n",
               "_template": "richtext"
-            }
-          ]
-        },
-        {
-          "width": "col-span-2",
-          "content": [
+            },
             {
-              "image": "https://core-data-tina-cms.s3.us-east-1.amazonaws.com/juel-staging-content/trust_footer.png",
-              "_template": "image"
-            }
-          ]
-        },
-        {
-          "width": "col-span-2",
-          "align": "",
-          "content": [
-            {
-              "image": "https://core-data-tina-cms.s3.us-east-1.amazonaws.com/juel-staging-content/kenan_footer.png",
-              "_template": "image"
+              "links": [
+                {
+                  "url": "/people",
+                  "label": "People"
+                },
+                {
+                  "url": "/places",
+                  "label": "Places"
+                },
+                {
+                  "url": "/stories",
+                  "label": "Stories"
+                },
+                {
+                  "url": "/ancestry",
+                  "label": "Ancestry"
+                },
+                {
+                  "url": "/documents",
+                  "label": "Documents"
+                },
+                {
+                  "url": "/images",
+                  "label": "Images"
+                },
+                {
+                  "url": "/about",
+                  "label": "About"
+                }
+              ],
+              "_template": "link_row"
             }
           ]
         }
