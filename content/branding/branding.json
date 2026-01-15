@@ -64,6 +64,9 @@
                 }
               ],
               "_template": "link_row"
+            },
+            {
+              "_template": "richtext"
             }
           ]
         }
