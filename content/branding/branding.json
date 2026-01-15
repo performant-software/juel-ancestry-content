@@ -29,6 +29,9 @@
               "_template": "richtext"
             },
             {
+              "_template": "richtext"
+            },
+            {
               "links": [
                 {
                   "url": "/people",
