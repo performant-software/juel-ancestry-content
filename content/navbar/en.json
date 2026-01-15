@@ -1,6 +1,11 @@
 {
   "items": [
     {
+      "label": "Places",
+      "href": "/en/search/places",
+      "_template": "URL"
+    },
+    {
       "label": "People",
       "href": "/en/pages/Enslaved/",
       "_template": "URL"
