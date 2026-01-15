@@ -1,6 +1,11 @@
 {
   "items": [
     {
+      "label": "Documents",
+      "href": "/en/search/items",
+      "_template": "URL"
+    },
+    {
       "label": "Places",
       "href": "/en/search/places",
       "_template": "URL"
