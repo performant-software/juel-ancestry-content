@@ -66,6 +66,7 @@
               "_template": "link_row"
             },
             {
+              "text": "",
               "_template": "richtext"
             }
           ]
