@@ -1,10 +1,10 @@
 {
   "detail_pages": {
-    "models": [
-      "people",
-      "places",
-      "items"
-    ]
+    "models": {
+      "people": {},
+      "places": {},
+      "items": {}
+    }
   },
   "gallery": "https://app.coredata.cloud/core_data/public/v1/items/95c7f234-3e81-49b8-8b72-25bc57896183/manifests?project_ids=92",
   "content": {
