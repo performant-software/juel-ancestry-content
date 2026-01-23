@@ -81,6 +81,7 @@
     {
       "name": "places",
       "route": "/places",
+      "type": "map",
       "geosearch": true,
       "map": {
         "geometry": "geometry",
@@ -107,6 +108,7 @@
     {
       "name": "people",
       "route": "/people",
+      "type": "grid",
       "geosearch": true,
       "facets": [
         {
@@ -152,6 +154,7 @@
     {
       "name": "items",
       "route": "/items",
+      "type": "list",
       "geosearch": true,
       "map": {
         "geometry": "f05615a6-588e-472f-aead-ea19edd8d905.geometry",
@@ -178,6 +181,7 @@
     {
       "name": "images",
       "route": "/media",
+      "type": "grid",
       "result_card": {
         "title": "name"
       },
