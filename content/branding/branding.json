@@ -43,16 +43,12 @@
                   "label": "Places"
                 },
                 {
+                  "url": "/en/search/items",
+                  "label": "Documents"
+                },
+                {
                   "url": "/en/posts",
                   "label": "Essays"
-                },
-                {
-                  "url": "/ancestry",
-                  "label": "Ancestry"
-                },
-                {
-                  "url": "/documents",
-                  "label": "Documents"
                 },
                 {
                   "url": "/images",
