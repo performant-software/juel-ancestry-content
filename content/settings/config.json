@@ -96,11 +96,11 @@
         "port": 443,
         "protocol": "https",
         "api_key": "il1F8rZjIq81FQablSXra1XYOMMnJ4Hu",
-        "index_name": "places",
+        "index_name": "places_campus",
         "query_by": "name",
         "facets": {
           "include": [
-            ""
+            "ba97848d-ba63-40d3-9b21-b74706ff716b.name_facet"
           ]
         }
       }
@@ -194,7 +194,7 @@
         "query_by": "name",
         "facets": {
           "include": [
-            ""
+            "51c3cd62-08f5-439a-ab22-baf21f3fc8b7_facet"
           ]
         },
         "overrides": {}
