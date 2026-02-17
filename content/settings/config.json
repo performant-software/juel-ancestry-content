@@ -96,7 +96,7 @@
         "port": 443,
         "protocol": "https",
         "api_key": "il1F8rZjIq81FQablSXra1XYOMMnJ4Hu",
-        "index_name": "places_campus",
+        "index_name": "places",
         "query_by": "name",
         "default_sort": "name",
         "facets": {
