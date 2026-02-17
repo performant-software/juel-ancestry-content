@@ -1,12 +1,4 @@
 {
-  "detail_pages": {
-    "models": {
-      "people": {},
-      "places": {},
-      "items": {}
-    }
-  },
-  "gallery": "https://app.coredata.cloud/core_data/public/v1/items/95c7f234-3e81-49b8-8b72-25bc57896183/manifests?project_ids=92",
   "content": {
     "collections": [
       "posts"
@@ -18,12 +10,20 @@
       "92"
     ]
   },
+  "detail_pages": {
+    "models": {
+      "items": {},
+      "people": {},
+      "places": {}
+    }
+  },
   "i18n": {
     "default_locale": "en",
     "locales": [
       "en"
     ]
   },
+  "gallery": "https://app.coredata.cloud/core_data/public/v1/items/95c7f234-3e81-49b8-8b72-25bc57896183/manifests?project_ids=92",
   "layers": [
     {
       "name": "Johnson's map of New York and the adjacent cities",
@@ -140,11 +140,11 @@
           },
           {
             "name": "bf2f94e8-b4b4-4c91-ab3c-3cb4777d9d98",
-            "fuzzy_date": true
+            "parser": "fuzzyDate"
           },
           {
             "name": "7416f0ae-c7a2-4505-ba6b-877f43fb4e9e",
-            "fuzzy_date": true
+            "parser": "fuzzyDate"
           }
         ],
         "relationships": [
@@ -186,8 +186,7 @@
         "title": "name",
         "attributes": [
           {
-            "name": "8552fc21-d6de-478d-8cbb-2216e4343183",
-            "fuzzy_date": true
+            "name": "8552fc21-d6de-478d-8cbb-2216e4343183"
           }
         ],
         "relationships": [
@@ -229,12 +228,7 @@
             "51c3cd62-08f5-439a-ab22-baf21f3fc8b7_facet"
           ]
         },
-        "overrides": {
-          "additionalSearchParameters": {
-            "filter_by": "8a11aa96-d0ea-4d82-827b-58201dc3fb40:=true",
-            "preset": false
-          }
-        }
+        "overrides": {}
       }
     }
   ]
