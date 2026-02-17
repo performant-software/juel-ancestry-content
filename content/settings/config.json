@@ -214,7 +214,7 @@
     {
       "name": "images",
       "route": "/media",
-      "type": "grid",
+      "type": "image",
       "result_card": {
         "title": "name"
       },
