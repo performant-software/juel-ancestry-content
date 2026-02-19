@@ -61,6 +61,13 @@
     }
   ],
   "result_filtering": {
+    "items": {
+      "exclude": [
+        "b57475b6-8e0d-458c-96a5-c9d81e8eb0bd",
+        "98721bd1-da23-4f28-bdfb-a4bb28fb5990",
+        "bb20d614-333f-40f6-b5fb-708011cb6185"
+      ]
+    },
     "people": {
       "exclude": [
         "01ff9954-d5ac-4f11-929e-5451caeea3d2",
